@@ -10,7 +10,8 @@
     tools:context="com.vjrene.cs.appdocknative3.SurveyActivityFragment"
     android:columnCount="7"
     android:rowCount="11"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="@color/buttonText">
 
 
 

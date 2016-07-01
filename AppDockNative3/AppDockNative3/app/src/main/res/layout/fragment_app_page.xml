@@ -23,7 +23,8 @@
         android:gravity="center"
         android:orientation="vertical"
 
-        tools:context="com.vjrene.cs.appdocknative3.AppPageActivity">
+        tools:context="com.vjrene.cs.appdocknative3.AppPageActivity"
+        android:background="@color/buttonText">
 
 
         <ImageView
@@ -32,6 +33,41 @@
             android:id="@+id/logo"
             android:layout_gravity="left"
             android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:background="@drawable/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Survey"
+                android:id="@+id/surveyBtn"
+                android:onClick="goToSurvey"
+                style="@style/button_text" />
+
+            <Button
+                android:background="@drawable/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Developers"
+                android:id="@+id/developerBtn"
+                style="@style/button_text" />
+
+            <Button
+                android:background="@drawable/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Education"
+                android:id="@+id/educationBtn"
+                android:onClick="goToDev"
+                style="@style/button_text" />
+
+        </LinearLayout>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -130,12 +166,7 @@
                 android:src="@drawable/i"/>
         </GridLayout>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Survey"
-            android:id="@+id/surveyBtn"
-            android:onClick="goToSurvey"/>
+
 
 
     </LinearLayout>

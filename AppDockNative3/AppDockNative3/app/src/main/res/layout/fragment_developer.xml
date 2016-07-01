@@ -8,7 +8,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.vjrene.cs.appdocknative3.DeveloperActivityFragment"
     tools:showIn="@layout/activity_developer"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="@color/buttonText">
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -20,9 +21,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
                 android:id="@+id/home"
                 android:src="@drawable/logo"
                 android:layout_alignParentTop="true"
@@ -35,7 +36,8 @@
                 android:id="@+id/imageView"
                 android:src="@drawable/beye"
                 android:layout_below="@+id/home"
-                android:layout_alignParentEnd="true" />
+                android:layout_toEndOf="@+id/imageView2"
+                android:layout_marginStart="41dp" />
 
             <ImageView
                 android:layout_width="99dp"
@@ -43,7 +45,8 @@
                 android:id="@+id/imageView2"
                 android:src="@drawable/a"
                 android:layout_below="@+id/home"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -51,8 +54,8 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="@string/beyeBioText"
                 android:id="@+id/BeyeBio"
-                android:layout_below="@+id/imageView"
-                android:layout_alignParentEnd="true" />
+                android:layout_below="@+id/tableRow"
+                android:layout_alignParentStart="true" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -63,7 +66,9 @@
                 android:layout_below="@+id/BeyeBio"
                 android:layout_toEndOf="@+id/home"
                 android:layout_alignParentBottom="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:background="@drawable/button"
+                style="@style/button_text" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -71,7 +76,17 @@
                 android:text="Get App"
                 android:id="@+id/getApp"
                 android:layout_alignTop="@+id/eduButton"
-                android:layout_alignEnd="@+id/imageView" />
+                android:layout_alignEnd="@+id/imageView"
+                android:background="@drawable/button"
+                style="@style/button_text" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_toEndOf="@+id/home"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView"
+                android:id="@+id/tableRow"></TableRow>
         </RelativeLayout>
 
     </ScrollView>
