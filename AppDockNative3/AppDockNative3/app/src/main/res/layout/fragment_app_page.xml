@@ -27,47 +27,6 @@
         android:background="@color/buttonText">
 
 
-        <ImageView
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:id="@+id/logo"
-            android:layout_gravity="left"
-            android:src="@drawable/logo" />
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center">
-
-            <Button
-                android:background="@drawable/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Survey"
-                android:id="@+id/surveyBtn"
-                android:onClick="goToSurvey"
-                style="@style/button_text" />
-
-            <Button
-                android:background="@drawable/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Developers"
-                android:id="@+id/developerBtn"
-                style="@style/button_text" />
-
-            <Button
-                android:background="@drawable/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Education"
-                android:id="@+id/educationBtn"
-                android:onClick="goToDev"
-                style="@style/button_text" />
-
-        </LinearLayout>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

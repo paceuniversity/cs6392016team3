@@ -38,7 +38,7 @@
             android:name=".EducationActivity"
             android:label="@string/title_activity_education"
             android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".DeveloperActivity"></activity>
+            android:parentActivityName=".AppPageActivity"></activity>
 
     </application>
 

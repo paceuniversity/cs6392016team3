@@ -20,13 +20,18 @@ public class AppPageActivity extends AppCompatActivity {
         final Intent intent = new Intent(this, SurveyActivity.class);
         startActivity(intent);
     }
+    public void goToEducation (View view) {
+        final Intent intent = new Intent(this, EducationActivity.class);
+        startActivity(intent);
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_page);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+       // Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+     //   setSupportActionBar(toolbar);
 
 
 
