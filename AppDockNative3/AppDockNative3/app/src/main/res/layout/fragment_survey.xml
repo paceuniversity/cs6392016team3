@@ -11,7 +11,7 @@
     android:columnCount="7"
     android:rowCount="11"
     android:weightSum="1"
-    android:background="@color/buttonText">
+    android:background="@color/colorAccent">
 
 
 

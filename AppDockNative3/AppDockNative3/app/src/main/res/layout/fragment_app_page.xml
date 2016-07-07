@@ -2,15 +2,17 @@
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     tools:context="com.vjrene.cs.appdocknative3.AppPageActivityFragment"
-    tools:showIn="@layout/activity_app_page">
+    tools:showIn="@layout/activity_app_page"
+    android:background="@color/colorAccent">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollView">
+        android:id="@+id/scrollView"
+        android:background="@color/colorAccent">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -24,19 +26,21 @@
         android:orientation="vertical"
 
         tools:context="com.vjrene.cs.appdocknative3.AppPageActivity"
-        android:background="@color/buttonText">
+        android:background="@color/colorAccent">
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Descouvrez des aplications mobiles senegalaises"
-            android:layout_gravity="left"
-            />
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:textSize="16dp" />
         <GridLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            android:background="@color/colorAccent">
 
             <ImageView
                 android:layout_width="110dp"

@@ -9,14 +9,14 @@
     tools:context="com.vjrene.cs.appdocknative3.DeveloperActivityFragment"
     tools:showIn="@layout/activity_developer"
     android:weightSum="1"
-    android:background="@color/buttonText"
+    android:background="@color/colorAccent"
     android:orientation="vertical"
     >
 
    <LinearLayout
        android:layout_width="match_parent"
        android:layout_height="100dp"
-      >
+       android:background="@color/colorAccent">
 
        <ImageView
            android:layout_width="99dp"

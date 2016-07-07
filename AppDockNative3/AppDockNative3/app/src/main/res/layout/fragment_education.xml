@@ -8,18 +8,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.vjrene.cs.appdocknative3.EducationActivityFragment"
     tools:showIn="@layout/activity_education"
-    android:background="@color/buttonText">
+    android:background="@color/colorAccent">
 
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:fillViewport="true"
+        android:background="@color/colorAccent">
 
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
 
     <TextView
         android:layout_width="wrap_content"
