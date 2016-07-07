@@ -1,6 +1,6 @@
 AppDock Readme
 
-The team consists of Andrew Greenberg, Vaness Rene, and Fabian Patino from CS613 summer session 2016 at Pace University.
+The team consists of Andrew Greenberg, Vanessa Rene, and Fabian Patino from CS613 summer session 2016 at Pace University.
 
 Our Procedure:
   We first created a wiki outlining the main idea for our project and the reasoning behind it. Our second step was to create a design for the UI.
