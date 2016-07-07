@@ -1,6 +1,7 @@
 package com.vjrene.cs.appdocknative3;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -21,6 +22,7 @@ public class DeveloperActivity extends AppCompatActivity {
         ImageView home = (ImageView) findViewById(R.id.devToHome);
         Button survButton = (Button) findViewById(R.id.devToSurvey);
         Button educButton = (Button) findViewById(R.id.devToEdu);
+        Button getApp = (Button) findViewById(R.id.getApp);
 
         home.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
@@ -41,6 +43,19 @@ public class DeveloperActivity extends AppCompatActivity {
             }
         });
 
+        getApp.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view) {
+                goStore();
+            }
+        });
+
     }
 
+    protected void goStore(){
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.okb.crossybricks&hl=en"));
+        //market://details?id=com.okb.crossybricks&hl=en
+
+        startActivity(intent);
+    }
 }
