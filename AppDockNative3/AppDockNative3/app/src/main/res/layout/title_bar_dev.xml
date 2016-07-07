@@ -18,10 +18,9 @@
         <ImageView
             android:layout_width="85dp"
             android:layout_height="85dp"
-            android:id="@+id/home"
+            android:id="@+id/devToHome"
             android:src="@drawable/logo"
             android:background="@color/colorAccent"
-            android:onClick="goHome"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"/>
 
@@ -31,13 +30,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Survey"
-            android:id="@+id/surveyBtn"
-            android:onClick="goToSurvey"
+            android:id="@+id/devToSurvey"
             style="@style/button_text"
             android:layout_gravity="center_vertical" />
 
         <Button
-            android:background="@drawable/button"
+            android:background="@color/highlighted"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Developers"
@@ -50,8 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Education"
-            android:id="@+id/educationBtn"
-            android:onClick="goToDev"
+            android:id="@+id/devToEdu"
             style="@style/button_text"
             android:layout_marginTop="10dp"
             android:paddingRight="15dp"

@@ -9,74 +9,51 @@
     tools:context="com.vjrene.cs.appdocknative3.DeveloperActivityFragment"
     tools:showIn="@layout/activity_developer"
     android:weightSum="1"
-    android:background="@color/buttonText">
+    android:background="@color/buttonText"
+    android:orientation="vertical"
+    >
 
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+      >
+
+       <ImageView
+           android:layout_width="99dp"
+           android:layout_height="99dp"
+           android:src="@drawable/a"
+           android:layout_marginStart="41dp"
+           android:layout_marginEnd="41dp"/>
+
+       <ImageView
+           android:layout_width="99dp"
+           android:layout_height="99dp"
+           android:src="@drawable/beye"
+           />
+   </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:orientation="vertical">
 
-
-        <RelativeLayout
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:text="@string/beyeBioText"
+            android:id="@+id/BeyeBio"
+        />
 
-            <ImageView
-                android:layout_width="99dp"
-                android:layout_height="99dp"
-                android:id="@+id/imageView"
-                android:src="@drawable/beye"
-                android:layout_toEndOf="@+id/imageView2"
-                android:layout_marginStart="41dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get App"
+            android:id="@+id/getApp"
+            android:background="@drawable/button"
+            style="@style/button_text"
+            android:layout_gravity="center_horizontal">
 
-            <ImageView
-                android:layout_width="99dp"
-                android:layout_height="99dp"
-                android:id="@+id/imageView2"
-                android:src="@drawable/a"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="47dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="@string/beyeBioText"
-                android:id="@+id/BeyeBio"
-                android:layout_below="@+id/tableRow"
-                android:layout_alignParentStart="true" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Education"
-                android:onClick="goToEdDev"
-                android:id="@+id/eduButton"
-                android:layout_below="@+id/BeyeBio"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentStart="true"
-                android:background="@drawable/button"
-                style="@style/button_text" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Get App"
-                android:id="@+id/getApp"
-                android:layout_alignTop="@+id/eduButton"
-                android:layout_alignEnd="@+id/imageView"
-                android:background="@drawable/button"
-                style="@style/button_text" />
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="25dp"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/imageView"
-                android:id="@+id/tableRow"></TableRow>
-        </RelativeLayout>
-
-    </ScrollView>
-
+            </Button>
+    </LinearLayout>
 
 </LinearLayout>

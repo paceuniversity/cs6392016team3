@@ -5,6 +5,10 @@
     android:layout_height="100dp"
     android:background="@color/colorPrimary">
 
+
+
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_alignParentStart="true"-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,21 +18,19 @@
         <ImageView
             android:layout_width="85dp"
             android:layout_height="85dp"
-            android:id="@+id/home"
+            android:id="@+id/survToHome"
             android:src="@drawable/logo"
             android:background="@color/colorAccent"
-            android:onClick="goHome"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"/>
 
 
         <Button
-            android:background="@drawable/button"
+            android:background="@color/highlighted"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Survey"
-            android:id="@+id/surveyBtn"
-            android:onClick="goToSurvey"
+            android:id="@+id/surveyButtonn"
             style="@style/button_text"
             android:layout_gravity="center_vertical" />
 
@@ -37,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Developers"
-            android:id="@+id/developerBtn"
+            android:id="@+id/survToDev"
             style="@style/button_text"
             android:layout_gravity="center_vertical" />
 
@@ -46,8 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Education"
-            android:id="@+id/educationBtn"
-            android:onClick="goToDev"
+            android:id="@+id/survToEdu"
             style="@style/button_text"
             android:layout_marginTop="10dp"
             android:paddingRight="15dp"
