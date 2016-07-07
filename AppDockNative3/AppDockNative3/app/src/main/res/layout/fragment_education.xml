@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,6 +11,7 @@
     android:background="@color/colorAccent">
 
 
+<<<<<<< HEAD
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,6 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorAccent">
+=======
+>>>>>>> 5e1596259473bfbddc9e7555f54a5ded18a72d0c
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,18 +35,14 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <VideoView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/beyeInterview"
-        android:layout_below="@+id/eduHeadline"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:onClick="watchVideo"
-        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/videoView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
 
-        </RelativeLayout>
 
-    </ScrollView>
 
-</LinearLayout>
+
+</RelativeLayout>
