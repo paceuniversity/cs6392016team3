@@ -17,8 +17,8 @@
 
         <include layout="@layout/title_bar_edu"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="0dp" />
+            android:layout_height="105dp"
+             />
 
         <include layout="@layout/fragment_education"
             android:layout_height="wrap_content"
