@@ -2,60 +2,74 @@
 <items version="2" >
 
     <item
-        jar="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_c370599b97115d8fa631f97c427657bddecb1192.jar" />
+        sha1="0a71c2a41c5c4cc3db48be05af0a2adefaa8cb2d">
+        <dex dex="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e33dedef19dd0ebac266a250c5820aa6550dc70f/classes.dex" />
     </item>
     <item
-        jar="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_5a841bca68ad6fc1902447a4267c24f0e0860d67.jar" />
+        sha1="7ef83b0350bae46a7ae8627367ae03e069f10ca5">
+        <dex dex="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1dfc6669cb34b3cff65d185927f6162d33ad4967/classes.dex" />
     </item>
     <item
-        jar="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_d530446cabb56fce297372f3795e79e4cbf0e890.jar" />
-    </item>
-    <item
-        jar="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_4f344d65df2e38bf0968b51782a4fb6810231718.jar" />
-    </item>
-    <item
-        jar="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_1f3668d81f02c3627ed56eb415fc9131eee7188e.jar" />
-    </item>
-    <item
-        jar="/Users/fabianpatino/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
-        jumboMode="false"
+        jar="/Users/CS/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
         revision="23.0.3"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_5e5d74546fb89acff9a2af952295a7f28cf53eea.jar" />
+        <dex dex="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_a0b39112811e4a0c3dbeb96c09e29edd9fe1e87e/classes.dex" />
     </item>
     <item
-        jar="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="false"
+        jar="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_3eda9c295802353315bc201113add76f529fcdf6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_6de9820567d0160f1ce9784eaf503244094d9426/classes.dex" />
+    </item>
+    <item
+        jar="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_64c76ffb1172acea378724e9a31ebd0a64457977/classes.dex" />
+    </item>
+    <item
+        jar="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
         revision="23.0.3"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_53cc7d9f096c584fd61232c4ddaa8400c9a26de3.jar" />
+        <dex dex="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_4f83bf661076d3ef0ca8ca73f7be68d8b2a0d748/classes.dex" />
     </item>
     <item
-        jar="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_6d23c5fac1f83c3a272b6efa882f57f626c140cb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_c1ed00d446c4578e5704488b41fa344fe023e9d2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.3"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/Users/fabianpatino/Desktop/Appdockv4/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_dbdf02276564e1292095d04130760a414a2a88b7.jar" />
+        <dex dex="/Users/CS/Desktop/group v6/cs6392016team3/AppDockNative3/AppDockNative3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_4e19fd407a13b2d08af199d1fe9324b59de44fbe/classes.dex" />
     </item>
 
 </items>
